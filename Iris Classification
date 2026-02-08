@@ -1,0 +1,43 @@
+#1. Import Libraries
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+#2. Load the Dataset
+
+iris = pd.read_csv("Iris.csv")
+iris.head()
+
+
+#3. Descriptive Statistics
+
+iris.describe()
+
+
+#4. Check Target Labels
+
+iris['Species'].unique()
+
+#5. Data Visualization (Scatter Plot)
+
+import plotly.express as px
+px.scatter(iris, x="SepalWidthCm", y="SepalLengthCm", color="Species")
+
+#6. Choose Machine Learning Algorithm (KNN)
+
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+
+x = iris.drop(["Id", "Species"], axis=1)
+y = iris["Species"]
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+knn = KNeighborsClassifier(n_neighbors=1)
+knn.fit(x_train, y_train)
+knn.predict([[5, 2.9, 1, 0.2]])
+
+#7. Make a Prediction
+
+x_new = np.array([[5, 2.9, 1, 0.2]])
+prediction = knn.predict(x_new)
+print(prediction)

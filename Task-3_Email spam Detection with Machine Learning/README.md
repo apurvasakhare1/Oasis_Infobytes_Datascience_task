@@ -1,4 +1,4 @@
-🌸 Email Spam Detection using SVM
+🌸 Email Spam Detection using SVM - 
 
 This project implements a Machine Learning solution to classify SMS or email messages as either Ham (legitimate) or Spam. 
 It utilizes Natural Language Processing (NLP) for text representation and Support Vector Machines (SVM) for high-accuracy classification.

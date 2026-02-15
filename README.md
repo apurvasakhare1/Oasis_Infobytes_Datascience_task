@@ -1,41 +1,55 @@
-# 🌸 Iris Flower Classification using Machine Learning
+🚀 OIBSIP Machine Learning Internship
+This repository contains the projects completed during my Data Science Internship at Oasis Infobyte. The tasks cover a range of domains including classification, data analysis, and natural language processing.
 
-## 📌 Project Overview
-This project focuses on classifying iris flowers into three species:
-- Iris-setosa
-- Iris-versicolor
-- Iris-virginica
+📌 Internship Overview
+Organization: Oasis Infobyte
+Domain: Data Science
+Internship ID: OIBSIP
 
-The classification is done using machine learning based on flower measurements.
+📂 Projects List
 
-## 📂 Dataset
-The dataset contains the following features:
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
+1. 🌸 Iris Flower Classification
+Goal: Classify Iris flowers into three species (Setosa, Versicolor, Virginica) based on physical measurements. 
+Algorithm: K-Nearest Neighbors (KNN)
+Features: Sepal Length, Sepal Width, Petal Length, Petal Width.
+Stack: Python, Scikit-Learn, Pandas, Matplotlib.
+Key Outcome: Demonstrated supervised learning basics with high classification accuracy. 
 
-Target variable:
-- Species
+2. 📊 Unemployment Analysis in India
+Goal: Perform Exploratory Data Analysis (EDA) to identify unemployment trends across Indian states, especially during the COVID-19 pandemic.
+Focus: State-wise comparison, Urban vs. Rural trends, and correlation between economic indicators.
+Stack: Pandas, Matplotlib, Seaborn, NumPy.
+Key Insight: Visualized the sharp spike in unemployment during the April–May 2020 lockdown and identified regional recovery patterns.
 
-## 🛠️ Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+3. 📧 Email Spam Detection
+Goal: Build a robust system to classify SMS or email messages as Ham (Safe) or Spam.
+Algorithm: Support Vector Machine (SVM)
+Technique: NLP (TF-IDF Vectorization) for converting text to numerical data.
+Stack: Python, Scikit-Learn (SVC), Pandas.
+Key Outcome: Achieved ~98% accuracy using a linear kernel, effectively filtering unwanted messages.
 
-## 🤖 Machine Learning Algorithm
-- K-Nearest Neighbors (KNN)
+🛠️ Technologies Used
+Languages: Python 🐍
 
-## 🚀 How to Run the Project
-1. Clone the repository
-2. Install dependencies
-3. Run `iris_classification.ipynb` or `iris_classification.py`
+Libraries:
+Pandas & NumPy (Data Manipulation)
+Scikit-Learn (Machine Learning)
+Matplotlib & Seaborn (Data Visualization)
+NLTK (Natural Language Processing)
+Tools: Jupyter Notebook, VS Code, Git/GitHub 
 
-## 📊 Result
-The model successfully predicts the species of iris flowers with high accuracy.
 
-## 📌 Conclusion
-This project demonstrates a basic supervised machine learning classification problem and is suitable for beginners in data science.
+Install dependencies:
+bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+Use code with caution.
 
+Explore Task Folders:
+Navigate to the specific folder (e.g., cd Iris_Classification) and run the .ipynb file or .py script.
+
+📈 Future Tasks
+Task 4: (Upcoming)
+Task 5: (Upcoming)
+
+🎓 Conclusion
+Through these tasks, I have applied various data science methodologies—from data cleaning and complex EDA to building predictive models using KNN and SVM. This repository serves as a showcase of my ability to derive insights and build automated solutions using Python.
